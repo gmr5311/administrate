@@ -44,7 +44,7 @@ fi
 
 if ! command -v heroku > /dev/null; then
   printf 'Heroku is not installed.\n'
-  printf "You'l need it to contribute to the demo app\n"
+  printf "You'll need it to contribute to the demo app\n"
   printf 'https://devcenter.heroku.com/articles/heroku-cli for install instructions\n'
 else
   if heroku join --app administrate-prototype > /dev/null 2>&1; then
